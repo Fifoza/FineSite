@@ -1,0 +1,65 @@
+body {
+  background-color: #a67692;
+}
+
+body hr {
+  width: 80%;
+  height: 3px;
+  border-bottom: 2px solid #4f3f49;
+}
+
+body nav {
+  background-color: aqua;
+  font-weight: bold;
+}
+
+body nav .justify-content-end {
+  height: 4rem;
+}
+
+body header {
+  font-style: color white;
+}
+
+body header #headerimg {
+  width: 100%;
+  height: 100%;
+}
+
+body header p.lead {
+  width: 85%;
+}
+
+body header h3 {
+  color: white;
+  width: 80%;
+}
+
+body header img.rounded {
+  width: 100%;
+  height: 100%;
+}
+
+body #main {
+  margin-top: 10rem;
+}
+
+body #center {
+  border: 2px solid white;
+}
+
+body #secondStage {
+  border: 2px solid white;
+}
+
+body #footer {
+  height: 15rem;
+  border: 2px solid white;
+}
+
+@media (min-width: 576px) {
+  body img {
+    display: 80%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
