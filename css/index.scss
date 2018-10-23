@@ -61,13 +61,23 @@ body {
 
     #secondStage{
         border: 2px solid white;
+        background-color: rgb(79, 63, 73);
     }
-    #secondDiv {}
+    #secondDiv {
+    
+    }
 
     #footer {
         height: 15rem;
-        ;
+        background-color: rgb(194, 133, 173);
         border: 2px solid white;
+        ul li{  }
+    }
+    #downDiv{
+        background-color: white;
+        img.floralImg{
+            margin: 0 auto;
+        }
     }
 }
 
@@ -75,8 +85,9 @@ body {
 
 
     body {
+        display: block;
         img {
-            display: 80%;
+            display: block;
         }
     }
 }

@@ -50,16 +50,29 @@ body #center {
 
 body #secondStage {
   border: 2px solid white;
+  background-color: #4f3f49;
 }
 
 body #footer {
   height: 15rem;
+  background-color: #c285ad;
   border: 2px solid white;
 }
 
+body #downDiv {
+  background-color: white;
+}
+
+body #downDiv img.floralImg {
+  margin: 0 auto;
+}
+
 @media (min-width: 576px) {
+  body {
+    display: block;
+  }
   body img {
-    display: 80%;
+    display: block;
   }
 }
 /*# sourceMappingURL=index.css.map */
