@@ -1,5 +1,5 @@
 body {
-
+    width: 100%;
     background-color: rgb(166, 118, 146);
 
     hr {
@@ -74,9 +74,12 @@ body {
         ul li{  }
     }
     #downDiv{
+        width: 100%;
         background-color: white;
         img.floralImg{
             margin: 0 auto;
+            width: 100%;
+            height: 100%;
         }
     }
 }

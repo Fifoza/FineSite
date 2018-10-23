@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   background-color: #a67692;
 }
 
@@ -60,11 +61,14 @@ body #footer {
 }
 
 body #downDiv {
+  width: 100%;
   background-color: white;
 }
 
 body #downDiv img.floralImg {
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 576px) {
